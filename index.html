@@ -1,0 +1,1104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Muneeb Rashid — Senior AI Engineer specializing in Generative AI, LLMs, MLOps, and production-grade AI systems across AWS, Azure, and GCP." />
+  <meta name="keywords" content="AI Engineer, Generative AI, LLMs, MLOps, RAG, LangGraph, LlamaIndex, PyTorch, AWS, Azure, GCP, Pakistan" />
+  <meta name="author" content="Muneeb Rashid" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Muneeb Rashid | Senior AI Engineer" />
+  <meta property="og:description" content="Building production-grade AI systems that solve real business problems." />
+  <meta property="og:type" content="website" />
+
+  <title>Muneeb Rashid | Senior AI Engineer</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ═══════════════════════════════════════════
+       NAVIGATION
+  ════════════════════════════════════════════ -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">
+        <span class="logo-bracket">&lt;</span>MR<span class="logo-bracket">/&gt;</span>
+      </a>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about"          class="nav-link">About</a></li>
+        <li><a href="#skills"         class="nav-link">Skills</a></li>
+        <li><a href="#experience"     class="nav-link">Experience</a></li>
+        <li><a href="#projects"       class="nav-link">Projects</a></li>
+        <li><a href="#education"      class="nav-link">Education</a></li>
+        <li><a href="#contact"        class="nav-link">Contact</a></li>
+      </ul>
+
+      <a href="mailto:muneebcyan@gmail.com" class="nav-cta btn btn-primary">
+        Hire Me
+      </a>
+
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu Overlay -->
+  <div class="mobile-menu" id="mobileMenu">
+    <ul>
+      <li><a href="#about"      class="mobile-link">About</a></li>
+      <li><a href="#skills"     class="mobile-link">Skills</a></li>
+      <li><a href="#experience" class="mobile-link">Experience</a></li>
+      <li><a href="#projects"   class="mobile-link">Projects</a></li>
+      <li><a href="#education"  class="mobile-link">Education</a></li>
+      <li><a href="#contact"    class="mobile-link">Contact</a></li>
+    </ul>
+  </div>
+
+  <main>
+
+    <!-- ═══════════════════════════════════════════
+         HERO
+    ════════════════════════════════════════════ -->
+    <section class="hero" id="hero">
+      <canvas id="particleCanvas"></canvas>
+
+      <div class="hero-content">
+        <!-- Availability Badge -->
+        <div class="availability-badge" data-aos="fade-down">
+          <span class="pulse-dot"></span>
+          Actively Seeking Opportunities in Saudi Arabia &amp; Gulf Region
+        </div>
+
+        <p class="hero-greeting" data-aos="fade-up" data-aos-delay="100">
+          Hello, I'm
+        </p>
+
+        <h1 class="hero-name" data-aos="fade-up" data-aos-delay="200">
+          Muneeb <span class="text-gradient">Rashid</span>
+        </h1>
+
+        <div class="hero-title" data-aos="fade-up" data-aos-delay="300">
+          <span class="static-text">Senior </span>
+          <span class="dynamic-text" id="dynamicText"></span>
+          <span class="cursor-blink">|</span>
+        </div>
+
+        <p class="hero-bio" data-aos="fade-up" data-aos-delay="400">
+          I architect <span class="highlight">production-grade AI systems</span> that solve real business problems —
+          from multimodal pipelines to enterprise RAG systems serving
+          <span class="highlight">100,000+ users</span> across AWS, Azure &amp; GCP.
+        </p>
+
+        <!-- Hero Stats -->
+        <div class="hero-stats" data-aos="fade-up" data-aos-delay="500">
+          <div class="hero-stat">
+            <span class="stat-number" data-count="5">0</span>
+            <span class="stat-plus">+</span>
+            <span class="stat-label">Years Experience</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="hero-stat">
+            <span class="stat-number" data-count="15">0</span>
+            <span class="stat-plus">+</span>
+            <span class="stat-label">Production Models</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="hero-stat">
+            <span class="stat-number" data-count="100">0</span>
+            <span class="stat-plus">K+</span>
+            <span class="stat-label">Users Served</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="hero-stat">
+            <span class="stat-number" data-count="3">0</span>
+            <span class="stat-plus"></span>
+            <span class="stat-label">Cloud Platforms</span>
+          </div>
+        </div>
+
+        <!-- CTA Buttons -->
+        <div class="hero-actions" data-aos="fade-up" data-aos-delay="600">
+          <a href="#projects" class="btn btn-primary btn-lg">
+            <i class="fas fa-rocket"></i> View My Work
+          </a>
+          <a href="#contact" class="btn btn-outline btn-lg">
+            <i class="fas fa-paper-plane"></i> Get In Touch
+          </a>
+        </div>
+
+        <!-- Social Links -->
+        <div class="hero-socials" data-aos="fade-up" data-aos-delay="700">
+          <a href="https://github.com/muneeb-rashid-cyan" target="_blank" rel="noopener" class="social-link" aria-label="GitHub">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://linkedin.com/in/muneeb-rashid-2a5b31262" target="_blank" rel="noopener" class="social-link" aria-label="LinkedIn">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a href="mailto:muneebcyan@gmail.com" class="social-link" aria-label="Email">
+            <i class="fas fa-envelope"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-scroll-indicator">
+        <span>Scroll</span>
+        <div class="scroll-line"></div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+         ABOUT
+    ════════════════════════════════════════════ -->
+    <section class="section about" id="about">
+      <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <span class="section-tag">Who I Am</span>
+          <h2 class="section-title">About <span class="text-gradient">Me</span></h2>
+        </div>
+
+        <div class="about-grid">
+          <!-- Left: Avatar + quick facts -->
+          <div class="about-visual" data-aos="fade-right">
+            <div class="avatar-wrapper">
+              <div class="avatar-placeholder">
+                <i class="fas fa-user-astronaut"></i>
+              </div>
+              <div class="avatar-ring ring-1"></div>
+              <div class="avatar-ring ring-2"></div>
+            </div>
+
+            <div class="quick-facts">
+              <div class="fact-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <span>Lahore, Pakistan</span>
+              </div>
+              <div class="fact-item">
+                <i class="fas fa-briefcase"></i>
+                <span>Open to Relocation (Saudi Arabia / Gulf)</span>
+              </div>
+              <div class="fact-item">
+                <i class="fas fa-clock"></i>
+                <span>Immediate Start Available</span>
+              </div>
+              <div class="fact-item">
+                <i class="fas fa-envelope"></i>
+                <a href="mailto:muneebcyan@gmail.com">muneebcyan@gmail.com</a>
+              </div>
+              <div class="fact-item">
+                <i class="fas fa-phone"></i>
+                <span>+92-333-0760460</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right: Bio -->
+          <div class="about-content" data-aos="fade-left">
+            <h3 class="about-heading">
+              Building AI systems that <span class="text-gradient">actually ship</span> to production.
+            </h3>
+            <p class="about-text">
+              I'm a Senior AI Engineer with <strong>5+ years</strong> of hands-on experience building
+              scalable, production-grade AI systems. My work spans the full AI lifecycle — from
+              research and experimentation to deployment and monitoring at scale.
+            </p>
+            <p class="about-text">
+              I specialize in <strong>Generative AI</strong>, <strong>Advanced RAG pipelines</strong>,
+              <strong>Multi-agent systems</strong>, and <strong>end-to-end MLOps</strong> across
+              AWS, Azure, and GCP. I've shipped AI products serving over 100,000 real users
+              with 95%+ accuracy, and built multimodal pipelines combining text, image,
+              video, and voice.
+            </p>
+            <p class="about-text">
+              Currently at <strong>Arbisoft</strong>, I lead development of an AI-powered
+              storybook generation platform — one of the most complex multimodal pipelines
+              I've architected to date. I'm passionate about the AI transformation happening
+              across the Gulf region and eager to contribute to Vision 2030 initiatives.
+            </p>
+
+            <div class="about-highlights">
+              <div class="highlight-card">
+                <i class="fas fa-brain"></i>
+                <div>
+                  <strong>Gen AI Expert</strong>
+                  <p>GPT-4, Gemini, Claude, Veo3, DALL-E, LLaMA 3</p>
+                </div>
+              </div>
+              <div class="highlight-card">
+                <i class="fas fa-cloud"></i>
+                <div>
+                  <strong>Multi-Cloud</strong>
+                  <p>AWS SageMaker · Azure ML · GCP Vertex AI</p>
+                </div>
+              </div>
+              <div class="highlight-card">
+                <i class="fas fa-network-wired"></i>
+                <div>
+                  <strong>MLOps</strong>
+                  <p>Docker · Kubernetes · CI/CD · MLflow · DVC</p>
+                </div>
+              </div>
+            </div>
+
+            <a href="Muneeb_Rashid_ML (1).pdf" download class="btn btn-outline mt-24">
+              <i class="fas fa-download"></i> Download Resume
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+         SKILLS
+    ════════════════════════════════════════════ -->
+    <section class="section skills" id="skills">
+      <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <span class="section-tag">What I Know</span>
+          <h2 class="section-title">Core <span class="text-gradient">Competencies</span></h2>
+          <p class="section-subtitle">
+            A comprehensive stack covering every layer of the modern AI engineering pipeline.
+          </p>
+        </div>
+
+        <div class="skills-grid">
+
+          <!-- Generative AI & LLMs -->
+          <div class="skill-card" data-aos="fade-up" data-aos-delay="0">
+            <div class="skill-card-header">
+              <div class="skill-icon">
+                <i class="fas fa-robot"></i>
+              </div>
+              <h3>Generative AI &amp; LLMs</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="tag tag-cyan">GPT-4</span>
+              <span class="tag tag-cyan">Claude</span>
+              <span class="tag tag-cyan">Gemini</span>
+              <span class="tag tag-cyan">LLaMA 3</span>
+              <span class="tag tag-cyan">LoRA Fine-tuning</span>
+              <span class="tag tag-cyan">Prompt Engineering</span>
+              <span class="tag tag-cyan">DALL-E</span>
+              <span class="tag tag-cyan">Imagen3</span>
+              <span class="tag tag-cyan">Veo3</span>
+              <span class="tag tag-cyan">Sora</span>
+            </div>
+          </div>
+
+          <!-- LLMOps & Advanced RAG -->
+          <div class="skill-card" data-aos="fade-up" data-aos-delay="80">
+            <div class="skill-card-header">
+              <div class="skill-icon">
+                <i class="fas fa-database"></i>
+              </div>
+              <h3>LLMOps &amp; Advanced RAG</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="tag tag-purple">Hybrid Search (BM25 + Vector + RRF)</span>
+              <span class="tag tag-purple">Cross-Encoder Reranking</span>
+              <span class="tag tag-purple">Semantic Chunking</span>
+              <span class="tag tag-purple">Hallucination Detection</span>
+              <span class="tag tag-purple">Context Compression</span>
+              <span class="tag tag-purple">Query Rewriting</span>
+              <span class="tag tag-purple">Citation Tracking</span>
+              <span class="tag tag-purple">Groundedness Evaluation</span>
+            </div>
+          </div>
+
+          <!-- AI Frameworks -->
+          <div class="skill-card" data-aos="fade-up" data-aos-delay="160">
+            <div class="skill-card-header">
+              <div class="skill-icon">
+                <i class="fas fa-code-branch"></i>
+              </div>
+              <h3>AI Frameworks</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="tag tag-cyan">LangChain</span>
+              <span class="tag tag-cyan">LangGraph</span>
+              <span class="tag tag-cyan">LlamaIndex</span>
+              <span class="tag tag-cyan">PyTorch</span>
+              <span class="tag tag-cyan">TensorFlow</span>
+              <span class="tag tag-cyan">ChromaDB</span>
+              <span class="tag tag-cyan">Pinecone</span>
+              <span class="tag tag-cyan">Weaviate</span>
+              <span class="tag tag-cyan">FastAPI</span>
+              <span class="tag tag-cyan">Streamlit</span>
+            </div>
+          </div>
+
+          <!-- MLOps & Deployment -->
+          <div class="skill-card" data-aos="fade-up" data-aos-delay="240">
+            <div class="skill-card-header">
+              <div class="skill-icon">
+                <i class="fas fa-infinity"></i>
+              </div>
+              <h3>MLOps &amp; Deployment</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="tag tag-purple">Docker</span>
+              <span class="tag tag-purple">Kubernetes (AKS, EKS)</span>
+              <span class="tag tag-purple">CI/CD (Azure DevOps, GitHub Actions)</span>
+              <span class="tag tag-purple">MLflow</span>
+              <span class="tag tag-purple">DVC</span>
+              <span class="tag tag-purple">Azure Container Registry</span>
+              <span class="tag tag-purple">Jenkins</span>
+              <span class="tag tag-purple">Databricks</span>
+            </div>
+          </div>
+
+          <!-- Cloud Platforms -->
+          <div class="skill-card" data-aos="fade-up" data-aos-delay="320">
+            <div class="skill-card-header">
+              <div class="skill-icon">
+                <i class="fas fa-cloud"></i>
+              </div>
+              <h3>Cloud Platforms</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="tag tag-cyan">AWS SageMaker</span>
+              <span class="tag tag-cyan">AWS Bedrock</span>
+              <span class="tag tag-cyan">AWS Lambda</span>
+              <span class="tag tag-cyan">Azure ML Studio</span>
+              <span class="tag tag-cyan">Azure AI Foundry</span>
+              <span class="tag tag-cyan">Azure OpenAI</span>
+              <span class="tag tag-cyan">GCP Vertex AI</span>
+              <span class="tag tag-cyan">BigQuery</span>
+              <span class="tag tag-cyan">Cosmos DB</span>
+            </div>
+          </div>
+
+          <!-- Computer Vision & Optimization -->
+          <div class="skill-card" data-aos="fade-up" data-aos-delay="400">
+            <div class="skill-card-header">
+              <div class="skill-icon">
+                <i class="fas fa-eye"></i>
+              </div>
+              <h3>Computer Vision &amp; Optimization</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="tag tag-purple">OpenCV</span>
+              <span class="tag tag-purple">YOLO</span>
+              <span class="tag tag-purple">SAM</span>
+              <span class="tag tag-purple">TensorFlow Lite</span>
+              <span class="tag tag-purple">ONNX</span>
+              <span class="tag tag-purple">OpenVINO</span>
+              <span class="tag tag-purple">TensorRT</span>
+              <span class="tag tag-purple">Model Quantization</span>
+              <span class="tag tag-purple">ElevenLabs</span>
+              <span class="tag tag-purple">Whisper</span>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Programming Languages bar -->
+        <div class="lang-bar-wrapper" data-aos="fade-up">
+          <h3 class="lang-bar-title">Programming Languages</h3>
+          <div class="lang-bars">
+            <div class="lang-bar-item">
+              <div class="lang-info">
+                <span>Python</span><span>Expert</span>
+              </div>
+              <div class="progress-track">
+                <div class="progress-fill" data-width="96"></div>
+              </div>
+            </div>
+            <div class="lang-bar-item">
+              <div class="lang-info">
+                <span>SQL</span><span>Advanced</span>
+              </div>
+              <div class="progress-track">
+                <div class="progress-fill" data-width="85"></div>
+              </div>
+            </div>
+            <div class="lang-bar-item">
+              <div class="lang-info">
+                <span>R</span><span>Intermediate</span>
+              </div>
+              <div class="progress-track">
+                <div class="progress-fill" data-width="70"></div>
+              </div>
+            </div>
+            <div class="lang-bar-item">
+              <div class="lang-info">
+                <span>Bash / Shell</span><span>Intermediate</span>
+              </div>
+              <div class="progress-track">
+                <div class="progress-fill" data-width="72"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+         EXPERIENCE
+    ════════════════════════════════════════════ -->
+    <section class="section experience" id="experience">
+      <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <span class="section-tag">Where I've Worked</span>
+          <h2 class="section-title">Professional <span class="text-gradient">Experience</span></h2>
+        </div>
+
+        <div class="timeline">
+
+          <!-- Arbisoft -->
+          <div class="timeline-item" data-aos="fade-up">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="job-title">Senior AI Engineer</h3>
+                  <p class="company-name">
+                    <i class="fas fa-building"></i> Arbisoft
+                    <span class="company-location">· Lahore, Pakistan</span>
+                  </p>
+                </div>
+                <div class="job-meta">
+                  <span class="job-period">
+                    <i class="fas fa-calendar-alt"></i> Nov 2024 – Present
+                  </span>
+                  <span class="job-badge current">Current</span>
+                </div>
+              </div>
+              <ul class="job-bullets">
+                <li>Led end-to-end development of AI-powered <strong>storybook generation platform</strong> processing multimodal content (text, images, video, audio) for <strong>10,000+ daily active users</strong>.</li>
+                <li>Engineered image generation workflows using <strong>Leonardo AI, Google Imagen3, and DALL-E</strong>; implemented novel character consistency solution across 50+ story scenes, reducing regeneration by <strong>60%</strong>.</li>
+                <li>Designed and deployed <strong>video generation system</strong> comparing Google Veo3 vs OpenAI Sora; solved mutation challenges through reference image conditioning, achieving <strong>85% scene consistency</strong>.</li>
+                <li>Built <strong>Gemini Flash-based QA validation layer</strong> reducing post-generation errors by 40%; integrated ElevenLabs and Meta Seamless for voiceover across <strong>15+ languages</strong>.</li>
+                <li>Developed production-ready <strong>LangGraph + LlamaIndex conversational agents</strong> handling 5,000+ daily workflow automation tasks via n8n and Zapier.</li>
+                <li>Architected <strong>Azure MLOps pipelines</strong> with MLflow experiment tracking; deployed multi-agent LangGraph systems via Azure DevOps CI/CD with three-stage quality gates.</li>
+              </ul>
+              <div class="job-stack">
+                <span class="stack-tag">LangGraph</span><span class="stack-tag">LlamaIndex</span>
+                <span class="stack-tag">Leonardo AI</span><span class="stack-tag">Veo3</span>
+                <span class="stack-tag">Gemini Flash</span><span class="stack-tag">Azure ML</span>
+                <span class="stack-tag">n8n</span><span class="stack-tag">Docker</span><span class="stack-tag">AKS</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Mirlin Technologies -->
+          <div class="timeline-item" data-aos="fade-up">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="job-title">Senior ML Engineer <span class="job-type">(Part-Time Remote Contract)</span></h3>
+                  <p class="company-name">
+                    <i class="fas fa-building"></i> Mirlin Technologies
+                    <span class="company-location">· Canada (Remote – EST)</span>
+                  </p>
+                </div>
+                <div class="job-meta">
+                  <span class="job-period">
+                    <i class="fas fa-calendar-alt"></i> Jun 2024 – Feb 2026
+                  </span>
+                </div>
+              </div>
+              <ul class="job-bullets">
+                <li>Architected production-grade <strong>Azure ML pipelines</strong> with automated retraining, MLflow versioning, and Azure DevOps CI/CD — serving <strong>50,000+ monthly predictions</strong> with 99.5% uptime.</li>
+                <li>Integrated <strong>Azure OpenAI and custom LLMs</strong> into enterprise applications processing <strong>2TB+ daily data</strong>, implementing responsible AI with Azure Content Safety filtering.</li>
+                <li>Engineered <strong>AI-driven analytics layer</strong> connecting ML outputs to Power BI dashboards with real-time KPIs, improving executive decision-making speed by <strong>35%</strong>.</li>
+                <li>Reduced deployment time from <strong>2 weeks to 3 days</strong> by establishing MLOps best practices across teams — model registry, containerized deployments via Docker &amp; ACR, automated quality gates.</li>
+              </ul>
+              <div class="job-stack">
+                <span class="stack-tag">Azure ML</span><span class="stack-tag">Azure OpenAI</span>
+                <span class="stack-tag">MLflow</span><span class="stack-tag">Power BI</span>
+                <span class="stack-tag">Docker</span><span class="stack-tag">ACR</span><span class="stack-tag">Azure DevOps</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- PureLogics -->
+          <div class="timeline-item" data-aos="fade-up">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="job-title">Senior Artificial Intelligence Engineer</h3>
+                  <p class="company-name">
+                    <i class="fas fa-building"></i> PureLogics
+                    <span class="company-location">· Lahore, Pakistan</span>
+                  </p>
+                </div>
+                <div class="job-meta">
+                  <span class="job-period">
+                    <i class="fas fa-calendar-alt"></i> May 2023 – Oct 2024
+                  </span>
+                </div>
+              </div>
+              <ul class="job-bullets">
+                <li>Built <strong>advanced RAG pipeline with GPT-4</strong> for personalized healthcare engagement supporting <strong>100,000+ active users</strong> with 95%+ accuracy in health concern identification.</li>
+                <li>Developed <strong>multimodal RAG pipeline on AWS Bedrock</strong> processing 2TB+ daily data with auto-scaling for 500+ concurrent users, achieving 90%+ retrieval accuracy and &lt;1s response time.</li>
+                <li>Automated key business processes saving <strong>200+ hours monthly</strong> through AI-driven decision systems across healthcare, fintech, and e-commerce domains.</li>
+                <li>Reduced infrastructure costs by <strong>30%</strong> through elastic scaling optimization and efficient vector database indexing strategies.</li>
+              </ul>
+              <div class="job-stack">
+                <span class="stack-tag">GPT-4</span><span class="stack-tag">AWS Bedrock</span>
+                <span class="stack-tag">RAG Pipelines</span><span class="stack-tag">SageMaker</span>
+                <span class="stack-tag">Pinecone</span><span class="stack-tag">FastAPI</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- SmartFun Studios -->
+          <div class="timeline-item" data-aos="fade-up">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="job-title">Machine Learning Engineer</h3>
+                  <p class="company-name">
+                    <i class="fas fa-building"></i> SmartFun Studios (Pvt) Ltd
+                    <span class="company-location">· Lahore, Pakistan</span>
+                  </p>
+                </div>
+                <div class="job-meta">
+                  <span class="job-period">
+                    <i class="fas fa-calendar-alt"></i> Jun 2020 – Apr 2023
+                  </span>
+                </div>
+              </div>
+              <ul class="job-bullets">
+                <li>Optimized <strong>face recognition pipeline for Android MALI-T860 GPU</strong>, reducing inference time from 8 seconds to 800ms — a <strong>90% improvement</strong> through hardware-specific tuning.</li>
+                <li>Spearheaded novel deep learning system achieving <strong>99.15% accuracy</strong> in driver drowsiness detection with real-time SMS/email alerting.</li>
+                <li>Developed production ML models for prediction, decision automation, and optimization across mobile gaming and computer vision applications.</li>
+                <li>Mentored 3 junior engineers and authored comprehensive ML training manuals standardizing development practices across the team.</li>
+              </ul>
+              <div class="job-stack">
+                <span class="stack-tag">PyTorch</span><span class="stack-tag">TensorFlow Lite</span>
+                <span class="stack-tag">OpenCV</span><span class="stack-tag">YOLO</span>
+                <span class="stack-tag">ONNX</span><span class="stack-tag">Android GPU</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- AIM Lab -->
+          <div class="timeline-item" data-aos="fade-up">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="job-title">Machine Learning Engineer</h3>
+                  <p class="company-name">
+                    <i class="fas fa-building"></i> AIM Lab
+                    <span class="company-location">· Islamabad, Pakistan</span>
+                  </p>
+                </div>
+                <div class="job-meta">
+                  <span class="job-period">
+                    <i class="fas fa-calendar-alt"></i> Jan 2022 – Nov 2022
+                  </span>
+                </div>
+              </div>
+              <ul class="job-bullets">
+                <li>Designed and optimized ML models for NLP, computer vision, and recommender systems; deployed across cloud platforms with automated pipelines.</li>
+                <li>Collaborated with international clients (Singtel, Comfortdelgro) delivering tailored solutions that <strong>boosted efficiency by 15%</strong>.</li>
+                <li>Trained and validated models leading to a <strong>30% improvement in model accuracy</strong>; decreased deployment time by 20% using advanced deployment techniques.</li>
+                <li>Contributed 25% reduction in data processing time using Python libraries (EasyOCR, NumPy, Pandas, Scikit-learn).</li>
+              </ul>
+              <div class="job-stack">
+                <span class="stack-tag">Python</span><span class="stack-tag">Scikit-learn</span>
+                <span class="stack-tag">PyTorch</span><span class="stack-tag">EasyOCR</span>
+                <span class="stack-tag">NLP</span><span class="stack-tag">Cloud Deployment</span>
+              </div>
+            </div>
+          </div>
+
+        </div><!-- /timeline -->
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+         PROJECTS
+    ════════════════════════════════════════════ -->
+    <section class="section projects" id="projects">
+      <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <span class="section-tag">What I've Built</span>
+          <h2 class="section-title">Featured <span class="text-gradient">Projects</span></h2>
+          <p class="section-subtitle">
+            Production systems deployed at scale, not just side projects.
+          </p>
+        </div>
+
+        <div class="projects-grid">
+
+          <!-- Project 1: Healthcare AI -->
+          <div class="project-card featured" data-aos="fade-up" data-aos-delay="0">
+            <div class="project-card-inner">
+              <div class="project-glow"></div>
+              <div class="project-header">
+                <div class="project-icon">
+                  <i class="fas fa-heartbeat"></i>
+                </div>
+                <div class="project-links">
+                  <a href="https://github.com/muneeb-rashid-cyan" target="_blank" rel="noopener" title="GitHub">
+                    <i class="fab fa-github"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="project-featured-badge">Featured</div>
+              <h3 class="project-title">Multimodal AI Healthcare Assistant</h3>
+              <p class="project-description">
+                Production RAG pipeline with GPT-4 for personalized patient interaction.
+                Integrated OpenAI Whisper for real-time speech recognition handling
+                10,000+ daily queries with 95%+ accuracy in health concern identification
+                and 500ms median response time.
+              </p>
+              <div class="project-metrics">
+                <div class="metric">
+                  <span class="metric-value">100K+</span>
+                  <span class="metric-label">Active Users</span>
+                </div>
+                <div class="metric">
+                  <span class="metric-value">95%+</span>
+                  <span class="metric-label">Accuracy</span>
+                </div>
+                <div class="metric">
+                  <span class="metric-value">500ms</span>
+                  <span class="metric-label">Response Time</span>
+                </div>
+              </div>
+              <div class="project-tags">
+                <span>GPT-4</span><span>RAG</span><span>Whisper</span>
+                <span>FastAPI</span><span>Pinecone</span><span>AWS</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 2: AWS Bedrock RAG -->
+          <div class="project-card featured" data-aos="fade-up" data-aos-delay="100">
+            <div class="project-card-inner">
+              <div class="project-glow"></div>
+              <div class="project-header">
+                <div class="project-icon">
+                  <i class="fas fa-layer-group"></i>
+                </div>
+                <div class="project-links">
+                  <a href="https://github.com/muneeb-rashid-cyan" target="_blank" rel="noopener" title="GitHub">
+                    <i class="fab fa-github"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="project-featured-badge">Featured</div>
+              <h3 class="project-title">AWS Bedrock Multimodal RAG Pipeline</h3>
+              <p class="project-description">
+                Scalable RAG pipeline processing 2TB+ multimodal data daily with
+                auto-scaling for 500+ concurrent users. Leveraged SageMaker for
+                distributed training and Bedrock for serving — achieving sub-second
+                response times and 30% cost reduction through elastic scaling.
+              </p>
+              <div class="project-metrics">
+                <div class="metric">
+                  <span class="metric-value">2TB+</span>
+                  <span class="metric-label">Daily Data</span>
+                </div>
+                <div class="metric">
+                  <span class="metric-value">500+</span>
+                  <span class="metric-label">Concurrent Users</span>
+                </div>
+                <div class="metric">
+                  <span class="metric-value">30%</span>
+                  <span class="metric-label">Cost Reduction</span>
+                </div>
+              </div>
+              <div class="project-tags">
+                <span>AWS Bedrock</span><span>SageMaker</span><span>RAG</span>
+                <span>Auto-scaling</span><span>Vector DB</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 3: AI Interview Coach -->
+          <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+            <div class="project-card-inner">
+              <div class="project-glow"></div>
+              <div class="project-header">
+                <div class="project-icon">
+                  <i class="fas fa-user-tie"></i>
+                </div>
+                <div class="project-links">
+                  <a href="https://github.com/muneeb-rashid-cyan" target="_blank" rel="noopener" title="GitHub">
+                    <i class="fab fa-github"></i>
+                  </a>
+                </div>
+              </div>
+              <h3 class="project-title">AI Interview Prep Coach</h3>
+              <p class="project-description">
+                Multi-agent LangGraph system with sequential pipeline: Skill Gap Analyzer,
+                Resume Advisor, and Cover Letter Writer agents. Containerized and deployed
+                on Azure Web App via Azure DevOps CI/CD with three-stage automation.
+              </p>
+              <div class="project-tags">
+                <span>LangGraph</span><span>Multi-Agent</span><span>Docker</span>
+                <span>Azure DevOps</span><span>Pydantic</span><span>ACR</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 4: Object Detection -->
+          <div class="project-card" data-aos="fade-up" data-aos-delay="300">
+            <div class="project-card-inner">
+              <div class="project-glow"></div>
+              <div class="project-header">
+                <div class="project-icon">
+                  <i class="fas fa-mobile-alt"></i>
+                </div>
+                <div class="project-links">
+                  <a href="https://github.com/muneeb-rashid-cyan" target="_blank" rel="noopener" title="GitHub">
+                    <i class="fab fa-github"></i>
+                  </a>
+                </div>
+              </div>
+              <h3 class="project-title">Real-Time Object Detection on Mobile GPU</h3>
+              <p class="project-description">
+                Optimized real-time object detection for Android MALI-G76 GPU using
+                TensorFlow Lite. Reduced inference from 1.2s to &lt;500ms via model
+                quantization and hardware optimization. PyTorch → TensorFlow Lite via ONNX.
+              </p>
+              <div class="project-tags">
+                <span>TensorFlow Lite</span><span>ONNX</span><span>PyTorch</span>
+                <span>Model Quantization</span><span>OpenCV</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 5: Storybook AI -->
+          <div class="project-card" data-aos="fade-up" data-aos-delay="400">
+            <div class="project-card-inner">
+              <div class="project-glow"></div>
+              <div class="project-header">
+                <div class="project-icon">
+                  <i class="fas fa-book-open"></i>
+                </div>
+                <div class="project-links">
+                  <a href="https://github.com/muneeb-rashid-cyan" target="_blank" rel="noopener" title="GitHub">
+                    <i class="fab fa-github"></i>
+                  </a>
+                </div>
+              </div>
+              <h3 class="project-title">AI Storybook Generation Platform</h3>
+              <p class="project-description">
+                End-to-end multimodal AI pipeline combining image generation (Leonardo AI,
+                Imagen3), video synthesis (Veo3), and voice synthesis (ElevenLabs) for
+                automated storybook creation across 15+ languages at scale.
+              </p>
+              <div class="project-tags">
+                <span>Leonardo AI</span><span>Veo3</span><span>ElevenLabs</span>
+                <span>Gemini Flash</span><span>LangGraph</span><span>Multimodal</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 6: Drowsiness Detection -->
+          <div class="project-card" data-aos="fade-up" data-aos-delay="500">
+            <div class="project-card-inner">
+              <div class="project-glow"></div>
+              <div class="project-header">
+                <div class="project-icon">
+                  <i class="fas fa-car"></i>
+                </div>
+                <div class="project-links">
+                  <a href="https://github.com/muneeb-rashid-cyan" target="_blank" rel="noopener" title="GitHub">
+                    <i class="fab fa-github"></i>
+                  </a>
+                </div>
+              </div>
+              <h3 class="project-title">Driver Drowsiness Detection System</h3>
+              <p class="project-description">
+                Novel deep learning system achieving 99.15% accuracy in real-time driver
+                drowsiness detection. Enabled real-time SMS/email alerting, reducing
+                operational costs by 15% and improving road safety outcomes.
+              </p>
+              <div class="project-tags">
+                <span>Deep Learning</span><span>OpenCV</span><span>Real-time</span>
+                <span>PyTorch</span><span>Alerting System</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="projects-cta" data-aos="fade-up">
+          <a href="https://github.com/muneeb-rashid-cyan" target="_blank" rel="noopener" class="btn btn-outline btn-lg">
+            <i class="fab fa-github"></i> View All 71 Repositories on GitHub
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+         EDUCATION
+    ════════════════════════════════════════════ -->
+    <section class="section education" id="education">
+      <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <span class="section-tag">Academic Background</span>
+          <h2 class="section-title">Education &amp; <span class="text-gradient">Certifications</span></h2>
+        </div>
+
+        <div class="edu-cert-grid">
+
+          <!-- Education column -->
+          <div class="edu-column">
+            <h3 class="column-label" data-aos="fade-up">
+              <i class="fas fa-graduation-cap"></i> Education
+            </h3>
+
+            <div class="edu-card" data-aos="fade-up" data-aos-delay="100">
+              <div class="edu-icon">
+                <i class="fas fa-university"></i>
+              </div>
+              <div class="edu-content">
+                <div class="edu-degree">MS in Data Science</div>
+                <div class="edu-school">FAST NUCES, Islamabad</div>
+                <div class="edu-meta">
+                  <span><i class="fas fa-calendar"></i> 2021 – 2023</span>
+                  <span class="edu-gpa">GPA: 3.73 / 4.0</span>
+                </div>
+                <p class="edu-desc">
+                  Focused on advanced machine learning, deep learning architectures,
+                  statistical modeling, and large-scale data engineering.
+                  Teacher Assistant for ML &amp; Advanced ML courses.
+                </p>
+              </div>
+            </div>
+
+            <div class="edu-card" data-aos="fade-up" data-aos-delay="200">
+              <div class="edu-icon">
+                <i class="fas fa-calculator"></i>
+              </div>
+              <div class="edu-content">
+                <div class="edu-degree">BS in Mathematics</div>
+                <div class="edu-school">Bahauddin Zakariya University, Multan</div>
+                <div class="edu-meta">
+                  <span><i class="fas fa-calendar"></i> 2017 – 2021</span>
+                  <span class="edu-gpa">GPA: 3.53 / 4.0</span>
+                </div>
+                <p class="edu-desc">
+                  Strong foundation in calculus, linear algebra, probability theory,
+                  and numerical methods — the bedrock of modern AI and ML systems.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Certifications column -->
+          <div class="cert-column">
+            <h3 class="column-label" data-aos="fade-up">
+              <i class="fas fa-certificate"></i> Certifications
+            </h3>
+
+            <div class="cert-card" data-aos="fade-up" data-aos-delay="100">
+              <div class="cert-logo deeplearning">
+                <i class="fas fa-brain"></i>
+              </div>
+              <div class="cert-content">
+                <div class="cert-name">Generative AI with Large Language Models</div>
+                <div class="cert-issuer">DeepLearning.AI · Coursera</div>
+              </div>
+            </div>
+
+            <div class="cert-card" data-aos="fade-up" data-aos-delay="180">
+              <div class="cert-logo deeplearning">
+                <i class="fas fa-comment-dots"></i>
+              </div>
+              <div class="cert-content">
+                <div class="cert-name">Natural Language Processing Specialization</div>
+                <div class="cert-issuer">DeepLearning.AI · Coursera</div>
+              </div>
+            </div>
+
+            <div class="cert-card" data-aos="fade-up" data-aos-delay="260">
+              <div class="cert-logo deeplearning">
+                <i class="fas fa-network-wired"></i>
+              </div>
+              <div class="cert-content">
+                <div class="cert-name">Deep Learning Specialization</div>
+                <div class="cert-issuer">DeepLearning.AI · Coursera</div>
+              </div>
+            </div>
+
+            <div class="cert-card" data-aos="fade-up" data-aos-delay="340">
+              <div class="cert-logo udemy">
+                <i class="fas fa-infinity"></i>
+              </div>
+              <div class="cert-content">
+                <div class="cert-name">MLOps Bootcamp: Mastering AI Operations</div>
+                <div class="cert-issuer">Udemy</div>
+              </div>
+            </div>
+
+            <div class="cert-card" data-aos="fade-up" data-aos-delay="420">
+              <div class="cert-logo azure">
+                <i class="fab fa-microsoft"></i>
+              </div>
+              <div class="cert-content">
+                <div class="cert-name">Azure Machine Learning &amp; MLOps: Beginner to Advance</div>
+                <div class="cert-issuer">Udemy</div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+         CONTACT
+    ════════════════════════════════════════════ -->
+    <section class="section contact" id="contact">
+      <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <span class="section-tag">Let's Connect</span>
+          <h2 class="section-title">Get In <span class="text-gradient">Touch</span></h2>
+          <p class="section-subtitle">
+            Open to full-time roles, contract opportunities, and consulting engagements —
+            especially across Saudi Arabia and the Gulf region.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+
+          <!-- Contact Info -->
+          <div class="contact-info" data-aos="fade-right">
+            <div class="contact-card">
+              <div class="contact-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class="contact-details">
+                <span class="contact-label">Email</span>
+                <a href="mailto:muneebcyan@gmail.com" class="contact-value">muneebcyan@gmail.com</a>
+              </div>
+            </div>
+
+            <div class="contact-card">
+              <div class="contact-icon">
+                <i class="fas fa-phone"></i>
+              </div>
+              <div class="contact-details">
+                <span class="contact-label">Phone / WhatsApp</span>
+                <a href="tel:+923330760460" class="contact-value">+92-333-0760460</a>
+              </div>
+            </div>
+
+            <div class="contact-card">
+              <div class="contact-icon">
+                <i class="fab fa-linkedin-in"></i>
+              </div>
+              <div class="contact-details">
+                <span class="contact-label">LinkedIn</span>
+                <a href="https://linkedin.com/in/muneeb-rashid-2a5b31262" target="_blank" rel="noopener" class="contact-value">muneeb-rashid</a>
+              </div>
+            </div>
+
+            <div class="contact-card">
+              <div class="contact-icon">
+                <i class="fab fa-github"></i>
+              </div>
+              <div class="contact-details">
+                <span class="contact-label">GitHub</span>
+                <a href="https://github.com/muneeb-rashid-cyan" target="_blank" rel="noopener" class="contact-value">muneeb-rashid-cyan</a>
+              </div>
+            </div>
+
+            <div class="contact-card">
+              <div class="contact-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="contact-details">
+                <span class="contact-label">Location</span>
+                <span class="contact-value">Lahore, Pakistan</span>
+              </div>
+            </div>
+
+            <div class="relocation-banner">
+              <i class="fas fa-plane"></i>
+              <div>
+                <strong>Available for Relocation</strong>
+                <p>Saudi Arabia · UAE · Gulf Region<br/>Visa Sponsorship Required · Immediate Start</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact Form -->
+          <div class="contact-form-wrapper" data-aos="fade-left">
+            <form class="contact-form" id="contactForm">
+              <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" placeholder="John Smith" required />
+              </div>
+              <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="john@company.com" required />
+              </div>
+              <div class="form-group">
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" placeholder="Job Opportunity / Collaboration" required />
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" placeholder="Tell me about the role or project..." required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary btn-full">
+                <i class="fas fa-paper-plane"></i> Send Message
+              </button>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ═══════════════════════════════════════════
+       FOOTER
+  ════════════════════════════════════════════ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-logo">
+          <span class="logo-bracket">&lt;</span>MR<span class="logo-bracket">/&gt;</span>
+        </div>
+        <div class="footer-tagline">
+          Building AI systems that <span class="text-gradient">actually ship.</span>
+        </div>
+        <div class="footer-socials">
+          <a href="https://github.com/muneeb-rashid-cyan" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
+          <a href="https://linkedin.com/in/muneeb-rashid-2a5b31262" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          <a href="mailto:muneebcyan@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Muneeb Rashid. All rights reserved.</p>
+        <p>Senior AI Engineer · Generative AI · MLOps · Multi-Cloud</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
