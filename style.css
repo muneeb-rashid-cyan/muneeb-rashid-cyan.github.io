@@ -1432,35 +1432,6 @@ input, textarea, button { font-family: inherit; }
 }
 a.contact-value:hover { color: var(--cyan); }
 
-.relocation-banner {
-  display: flex;
-  align-items: flex-start;
-  gap: 16px;
-  background: linear-gradient(135deg, rgba(0, 212, 255, 0.06), rgba(124, 58, 237, 0.06));
-  border: 1px solid rgba(0, 212, 255, 0.2);
-  border-radius: var(--radius-md);
-  padding: 18px 20px;
-  margin-top: 4px;
-}
-.relocation-banner i {
-  font-size: 1.4rem;
-  color: var(--cyan);
-  margin-top: 2px;
-  flex-shrink: 0;
-}
-.relocation-banner strong {
-  display: block;
-  font-family: var(--font-heading);
-  font-size: 0.9rem;
-  color: var(--text-white);
-  margin-bottom: 4px;
-}
-.relocation-banner p {
-  font-size: 0.8rem;
-  color: var(--text-secondary);
-  line-height: 1.6;
-}
-
 /* Contact Form */
 .contact-form-wrapper {
   background: var(--bg-card);
