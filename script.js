@@ -561,10 +561,10 @@ document.addEventListener('DOMContentLoaded', () => {
   new TypeWriter('dynamicText', [
     'AI Engineer',
     'Generative AI Specialist',
-    'MLOps Architect',
-    'LLM Engineer',
-    'Computer Vision Expert',
-    'RAG Pipeline Builder',
+    'Agentic AI Engineer',
+    'MCP Server Developer',
+    'LLMOps & MLOps Architect',
+    'Advanced RAG Engineer',
     'Multi-Cloud AI Engineer',
   ], {
     typeSpeed:   75,
