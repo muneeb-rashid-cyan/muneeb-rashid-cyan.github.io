@@ -1,0 +1,660 @@
+{
+  "browser": "152.0.7977.83",
+  "checks": 163,
+  "results": [
+    {
+      "name": "Site responds HTTP 200",
+      "passed": true
+    },
+    {
+      "name": "No horizontal overflow at 320px",
+      "passed": true
+    },
+    {
+      "name": "hero is visible at 320px",
+      "passed": true
+    },
+    {
+      "name": "projects is visible at 320px",
+      "passed": true
+    },
+    {
+      "name": "experience is visible at 320px",
+      "passed": true
+    },
+    {
+      "name": "skills is visible at 320px",
+      "passed": true
+    },
+    {
+      "name": "about is visible at 320px",
+      "passed": true
+    },
+    {
+      "name": "education is visible at 320px",
+      "passed": true
+    },
+    {
+      "name": "contact is visible at 320px",
+      "passed": true
+    },
+    {
+      "name": "No horizontal overflow at 360px",
+      "passed": true
+    },
+    {
+      "name": "hero is visible at 360px",
+      "passed": true
+    },
+    {
+      "name": "projects is visible at 360px",
+      "passed": true
+    },
+    {
+      "name": "experience is visible at 360px",
+      "passed": true
+    },
+    {
+      "name": "skills is visible at 360px",
+      "passed": true
+    },
+    {
+      "name": "about is visible at 360px",
+      "passed": true
+    },
+    {
+      "name": "education is visible at 360px",
+      "passed": true
+    },
+    {
+      "name": "contact is visible at 360px",
+      "passed": true
+    },
+    {
+      "name": "No horizontal overflow at 390px",
+      "passed": true
+    },
+    {
+      "name": "hero is visible at 390px",
+      "passed": true
+    },
+    {
+      "name": "projects is visible at 390px",
+      "passed": true
+    },
+    {
+      "name": "experience is visible at 390px",
+      "passed": true
+    },
+    {
+      "name": "skills is visible at 390px",
+      "passed": true
+    },
+    {
+      "name": "about is visible at 390px",
+      "passed": true
+    },
+    {
+      "name": "education is visible at 390px",
+      "passed": true
+    },
+    {
+      "name": "contact is visible at 390px",
+      "passed": true
+    },
+    {
+      "name": "No horizontal overflow at 430px",
+      "passed": true
+    },
+    {
+      "name": "hero is visible at 430px",
+      "passed": true
+    },
+    {
+      "name": "projects is visible at 430px",
+      "passed": true
+    },
+    {
+      "name": "experience is visible at 430px",
+      "passed": true
+    },
+    {
+      "name": "skills is visible at 430px",
+      "passed": true
+    },
+    {
+      "name": "about is visible at 430px",
+      "passed": true
+    },
+    {
+      "name": "education is visible at 430px",
+      "passed": true
+    },
+    {
+      "name": "contact is visible at 430px",
+      "passed": true
+    },
+    {
+      "name": "No horizontal overflow at 650px",
+      "passed": true
+    },
+    {
+      "name": "hero is visible at 650px",
+      "passed": true
+    },
+    {
+      "name": "projects is visible at 650px",
+      "passed": true
+    },
+    {
+      "name": "experience is visible at 650px",
+      "passed": true
+    },
+    {
+      "name": "skills is visible at 650px",
+      "passed": true
+    },
+    {
+      "name": "about is visible at 650px",
+      "passed": true
+    },
+    {
+      "name": "education is visible at 650px",
+      "passed": true
+    },
+    {
+      "name": "contact is visible at 650px",
+      "passed": true
+    },
+    {
+      "name": "No horizontal overflow at 651px",
+      "passed": true
+    },
+    {
+      "name": "hero is visible at 651px",
+      "passed": true
+    },
+    {
+      "name": "projects is visible at 651px",
+      "passed": true
+    },
+    {
+      "name": "experience is visible at 651px",
+      "passed": true
+    },
+    {
+      "name": "skills is visible at 651px",
+      "passed": true
+    },
+    {
+      "name": "about is visible at 651px",
+      "passed": true
+    },
+    {
+      "name": "education is visible at 651px",
+      "passed": true
+    },
+    {
+      "name": "contact is visible at 651px",
+      "passed": true
+    },
+    {
+      "name": "No horizontal overflow at 768px",
+      "passed": true
+    },
+    {
+      "name": "hero is visible at 768px",
+      "passed": true
+    },
+    {
+      "name": "projects is visible at 768px",
+      "passed": true
+    },
+    {
+      "name": "experience is visible at 768px",
+      "passed": true
+    },
+    {
+      "name": "skills is visible at 768px",
+      "passed": true
+    },
+    {
+      "name": "about is visible at 768px",
+      "passed": true
+    },
+    {
+      "name": "education is visible at 768px",
+      "passed": true
+    },
+    {
+      "name": "contact is visible at 768px",
+      "passed": true
+    },
+    {
+      "name": "No horizontal overflow at 820px",
+      "passed": true
+    },
+    {
+      "name": "hero is visible at 820px",
+      "passed": true
+    },
+    {
+      "name": "projects is visible at 820px",
+      "passed": true
+    },
+    {
+      "name": "experience is visible at 820px",
+      "passed": true
+    },
+    {
+      "name": "skills is visible at 820px",
+      "passed": true
+    },
+    {
+      "name": "about is visible at 820px",
+      "passed": true
+    },
+    {
+      "name": "education is visible at 820px",
+      "passed": true
+    },
+    {
+      "name": "contact is visible at 820px",
+      "passed": true
+    },
+    {
+      "name": "No horizontal overflow at 1024px",
+      "passed": true
+    },
+    {
+      "name": "hero is visible at 1024px",
+      "passed": true
+    },
+    {
+      "name": "projects is visible at 1024px",
+      "passed": true
+    },
+    {
+      "name": "experience is visible at 1024px",
+      "passed": true
+    },
+    {
+      "name": "skills is visible at 1024px",
+      "passed": true
+    },
+    {
+      "name": "about is visible at 1024px",
+      "passed": true
+    },
+    {
+      "name": "education is visible at 1024px",
+      "passed": true
+    },
+    {
+      "name": "contact is visible at 1024px",
+      "passed": true
+    },
+    {
+      "name": "No horizontal overflow at 1280px",
+      "passed": true
+    },
+    {
+      "name": "hero is visible at 1280px",
+      "passed": true
+    },
+    {
+      "name": "projects is visible at 1280px",
+      "passed": true
+    },
+    {
+      "name": "experience is visible at 1280px",
+      "passed": true
+    },
+    {
+      "name": "skills is visible at 1280px",
+      "passed": true
+    },
+    {
+      "name": "about is visible at 1280px",
+      "passed": true
+    },
+    {
+      "name": "education is visible at 1280px",
+      "passed": true
+    },
+    {
+      "name": "contact is visible at 1280px",
+      "passed": true
+    },
+    {
+      "name": "No horizontal overflow at 1440px",
+      "passed": true
+    },
+    {
+      "name": "hero is visible at 1440px",
+      "passed": true
+    },
+    {
+      "name": "projects is visible at 1440px",
+      "passed": true
+    },
+    {
+      "name": "experience is visible at 1440px",
+      "passed": true
+    },
+    {
+      "name": "skills is visible at 1440px",
+      "passed": true
+    },
+    {
+      "name": "about is visible at 1440px",
+      "passed": true
+    },
+    {
+      "name": "education is visible at 1440px",
+      "passed": true
+    },
+    {
+      "name": "contact is visible at 1440px",
+      "passed": true
+    },
+    {
+      "name": "No horizontal overflow at 1920px",
+      "passed": true
+    },
+    {
+      "name": "hero is visible at 1920px",
+      "passed": true
+    },
+    {
+      "name": "projects is visible at 1920px",
+      "passed": true
+    },
+    {
+      "name": "experience is visible at 1920px",
+      "passed": true
+    },
+    {
+      "name": "skills is visible at 1920px",
+      "passed": true
+    },
+    {
+      "name": "about is visible at 1920px",
+      "passed": true
+    },
+    {
+      "name": "education is visible at 1920px",
+      "passed": true
+    },
+    {
+      "name": "contact is visible at 1920px",
+      "passed": true
+    },
+    {
+      "name": "Filter llm shows correct count",
+      "passed": true
+    },
+    {
+      "name": "Filter llm announces state",
+      "passed": true
+    },
+    {
+      "name": "Filter llm shows correct project",
+      "passed": true
+    },
+    {
+      "name": "Filter agents shows correct count",
+      "passed": true
+    },
+    {
+      "name": "Filter agents announces state",
+      "passed": true
+    },
+    {
+      "name": "Filter agents shows correct project",
+      "passed": true
+    },
+    {
+      "name": "Filter edge shows correct count",
+      "passed": true
+    },
+    {
+      "name": "Filter edge announces state",
+      "passed": true
+    },
+    {
+      "name": "Filter edge shows correct project",
+      "passed": true
+    },
+    {
+      "name": "Filter all shows correct count",
+      "passed": true
+    },
+    {
+      "name": "Filter all announces state",
+      "passed": true
+    },
+    {
+      "name": "llm architecture keyboard opens",
+      "passed": true
+    },
+    {
+      "name": "llm architecture keyboard closes",
+      "passed": true
+    },
+    {
+      "name": "agents architecture keyboard opens",
+      "passed": true
+    },
+    {
+      "name": "agents architecture keyboard closes",
+      "passed": true
+    },
+    {
+      "name": "edge architecture keyboard opens",
+      "passed": true
+    },
+    {
+      "name": "edge architecture keyboard closes",
+      "passed": true
+    },
+    {
+      "name": "Anchor #main resolves",
+      "passed": true
+    },
+    {
+      "name": "Anchor #hero resolves",
+      "passed": true
+    },
+    {
+      "name": "Anchor #projects resolves",
+      "passed": true
+    },
+    {
+      "name": "Anchor #experience resolves",
+      "passed": true
+    },
+    {
+      "name": "Anchor #skills resolves",
+      "passed": true
+    },
+    {
+      "name": "Anchor #about resolves",
+      "passed": true
+    },
+    {
+      "name": "Anchor #contact resolves",
+      "passed": true
+    },
+    {
+      "name": "Navigation #projects clears sticky header",
+      "passed": true
+    },
+    {
+      "name": "Navigation #experience clears sticky header",
+      "passed": true
+    },
+    {
+      "name": "Navigation #skills clears sticky header",
+      "passed": true
+    },
+    {
+      "name": "Navigation #about clears sticky header",
+      "passed": true
+    },
+    {
+      "name": "Navigation #contact clears sticky header",
+      "passed": true
+    },
+    {
+      "name": "Clipboard contains exact CV email",
+      "passed": true
+    },
+    {
+      "name": "Copy success announced",
+      "passed": true
+    },
+    {
+      "name": "Clipboard denial has honest fallback",
+      "passed": true
+    },
+    {
+      "name": "CV download has exact filename",
+      "passed": true
+    },
+    {
+      "name": "style.css HTTP 200",
+      "passed": true
+    },
+    {
+      "name": "script.js HTTP 200",
+      "passed": true
+    },
+    {
+      "name": "assets/favicon.svg HTTP 200",
+      "passed": true
+    },
+    {
+      "name": "assets/social-preview.png HTTP 200",
+      "passed": true
+    },
+    {
+      "name": "Muneeb_Rashid_AI_Engineer_KSA.pdf HTTP 200",
+      "passed": true
+    },
+    {
+      "name": "robots.txt HTTP 200",
+      "passed": true
+    },
+    {
+      "name": "sitemap.xml HTTP 200",
+      "passed": true
+    },
+    {
+      "name": "No duplicate IDs",
+      "passed": true
+    },
+    {
+      "name": "One H1",
+      "passed": true
+    },
+    {
+      "name": "Structured data parses",
+      "passed": true
+    },
+    {
+      "name": "External links have noopener",
+      "passed": true
+    },
+    {
+      "name": "Email matches CV",
+      "passed": true
+    },
+    {
+      "name": "Phone matches CV",
+      "passed": true
+    },
+    {
+      "name": "Mobile menu initially closed",
+      "passed": true
+    },
+    {
+      "name": "Mobile menu opens and announces state",
+      "passed": true
+    },
+    {
+      "name": "Escape closes and restores focus",
+      "passed": true
+    },
+    {
+      "name": "Mobile navigation closes and moves focus",
+      "passed": true
+    },
+    {
+      "name": "Resize restores desktop navigation",
+      "passed": true
+    },
+    {
+      "name": "Resize resets mobile menu",
+      "passed": true
+    },
+    {
+      "name": "Reduced motion disables smooth scroll",
+      "passed": true
+    },
+    {
+      "name": "Reduced motion disables illustration animation",
+      "passed": true
+    },
+    {
+      "name": "Visible labels match accessible names at 390px",
+      "passed": true
+    },
+    {
+      "name": "Axe WCAG 2.1 AA: no violations at 390px",
+      "passed": true
+    },
+    {
+      "name": "Visible labels match accessible names at 1440px",
+      "passed": true
+    },
+    {
+      "name": "Axe WCAG 2.1 AA: no violations at 1440px",
+      "passed": true
+    },
+    {
+      "name": "No JS: mobile navigation available",
+      "passed": true
+    },
+    {
+      "name": "No JS: all three projects available",
+      "passed": true
+    },
+    {
+      "name": "No JS: architecture disclosures work",
+      "passed": true
+    },
+    {
+      "name": "No JS: no dead filter controls",
+      "passed": true
+    },
+    {
+      "name": "Skip link is first keyboard stop",
+      "passed": true
+    },
+    {
+      "name": "Skip link moves to main",
+      "passed": true
+    },
+    {
+      "name": "No JavaScript errors",
+      "passed": true
+    },
+    {
+      "name": "No failed resource requests",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "failed": []
+}

@@ -1,100 +1,36 @@
-# CLAUDE.md
+# Repository guidance
 
-Guidance for Claude Code (and any AI assistant) working in this repository.
+Muneeb Rashid's static portfolio. HTML, CSS, and vanilla JavaScript; no build, package installation, framework, CDN, or runtime dependency is required.
 
-## What this is
+## Content authority
 
-The personal portfolio website for **Muneeb Rashid — Senior AI Engineer** (Generative AI,
-Agentic AI, MCP, LLMOps, MLOps). It is a single-page, static site with no build step and no
-framework.
+`Muneeb_Rashid_AI_Engineer_KSA.pdf` is the single source of truth for career content. Read both pages and PDF link annotations before changing claims. Current CV: Senior AI Engineer, Microsoft Certified AI-300, **5+ years**, **Riyadh, Saudi Arabia**, transferable Iqama. Do not infer a different experience total from calendar dates.
 
-- **Live URL:** https://muneeb-rashid-cyan.github.io/
-- **Repo:** https://github.com/muneeb-rashid-cyan/muneeb-rashid-cyan.github.io
-- **Hosting:** GitHub Pages (serves the root of the `main` branch directly)
+Experience: Arbisoft, Riyadh (Nov 2024–Present); PureLogics, Remote USA (May 2023–Oct 2024); SmartFun Studios, Remote USA (Jun 2020–Apr 2023); Yottabyte, Pakistan, **part-time** (Jun 2018–Feb 2020).
 
-## Stack
+Only use CV-supported metrics with their exact context: MedQuery's healthcare platform serves 100,000+ active users; Storybook Studio serves 10,000+ daily active users, workflows cover 50+ scenes and voiceover in 15+ languages; FaceLite inference improves from 8s to 800ms (90% faster). No unsourced accuracy, savings, throughput, or availability claims.
 
-Pure **HTML + CSS + vanilla JavaScript**. No npm, no bundler, no dependencies to install.
-External resources are loaded via CDN only:
+The three selected CV projects remain separate from the **seven verified GitHub builds** now shown in the open-source collection. GitHub profile: https://github.com/muneeb-rashid-cyan. README/code-derived claims for those seven repositories must stay grounded in their public implementation. `advancement/` contains historical learning advice and proposed projects; it is not evidence of completed work. See `review/CONTENT_AUDIT.md` for the full reconciliation.
 
-- Google Fonts — Inter, Space Grotesk, JetBrains Mono
-- Font Awesome 6.5 (icons)
+## Files and design
 
-## Files
+- `index.html`: semantic page content, native project details, social metadata and Person JSON-LD.
+- `style.css`: ivory/ink/blue/lime design, responsive grids, print and reduced-motion styles.
+- `script.js`: progressive enhancements for mobile navigation, project filtering, copy-email feedback, section highlighting, and finite entrance animation.
+- `assets/`: local favicon and social-preview PNG.
+- `robots.txt`, `sitemap.xml`: search discovery.
+- `review/`: content audit, browser results and review screenshots; not linked from the public portfolio.
 
-| File         | Purpose                                                                   |
-|--------------|---------------------------------------------------------------------------|
-| `index.html` | All page content and structure (single page, anchor-linked sections)      |
-| `style.css`  | All styling — CSS custom properties, grid layouts, responsive breakpoints |
-| `script.js`  | All interactivity — class-based vanilla JS, initialized on `DOMContentLoaded` |
-| `CLAUDE.md`  | This file                                                                 |
+Sections: hero → selected projects → experience → expertise → about/education → contact. Preserve existing anchor IDs when possible. Content, navigation, contact links, and architecture disclosures must work without JavaScript. Respect reduced motion and keep keyboard focus visible. Never display a sent-message confirmation for a `mailto:` action.
 
-> Add `Muneeb_Rashid_Resume.pdf` to the repo root — the "Download Resume" button in the
-> About section links to it. Without the file that link 404s.
+Use the existing PDF filename for all downloads. Preserve the CV and user-owned notes. Avoid external fonts, icon libraries, large bitmap hero assets, continuous canvas animation, or unnecessary dependencies.
 
-## Page sections (in `index.html`)
-
-`hero` → `about` → `skills` → `experience` → `projects` → `education` → `contact` → footer.
-Nav links and the mobile menu point to these section `id`s.
-
-## How it works (`script.js`)
-
-Everything is a small ES6 class, instantiated once at the bottom of the file:
-
-- `NeuralCanvas` — animated neural-network particle background on the hero (`#particleCanvas`)
-- `TypeWriter` — rotating job titles in the hero. **Edit the phrases array here**, not in HTML.
-- `ScrollAnimator` — custom AOS via `IntersectionObserver`; elements opt in with `data-aos`
-  (and optional `data-aos-delay`)
-- `CounterAnimator` — animates hero stat numbers; driven by `data-count` attributes
-- `ProgressAnimator` — animates the language skill bars; driven by `data-width`
-- `Navbar`, `MobileMenu`, `BackToTop`, `ContactForm` — UI behaviors
-- The contact form has **no backend** — it builds a `mailto:` link to `muneebcyan@gmail.com`
-
-## Design system
-
-Dark & futuristic. Core tokens live as CSS custom properties at the top of `style.css`:
-
-- Background: `#0a0a0f`
-- Accent cyan: `#00d4ff` (`--cyan`) · Accent purple: `#7c3aed` (`--purple`)
-- Tag colors: `.tag-cyan` / `.tag-purple`; gradient text via `.text-gradient`
-
-Keep new UI consistent with these tokens and the existing card/section patterns rather than
-introducing new colors or component styles.
-
-## Content rules (important)
-
-**The résumé is the source of truth.** Keep the site aligned with Muneeb's current CV:
-
-- Title: Senior AI Engineer | Generative AI · Agentic AI · MCP · LLMOps · MLOps
-- 8+ years experience · AI products serving 100,000+ users at 95%+ accuracy · AWS, Azure, GCP
-- Experience timeline: **Arbisoft** (Plano, TX, USA — current) → **PureLogics** → **SmartFun
-  Studios** → **Yottabyte**
-- Projects link to **real GitHub repos** under https://github.com/muneeb-rashid-cyan — when
-  adding a project card, use the actual repo URL and a description grounded in the repo's README.
-- Do **not** reintroduce relocation/visa or KSA/Gulf "Vision 2030" phrasing (intentionally removed).
-
-## Local preview
-
-No build needed. Open `index.html` directly, or serve the folder:
+## Preview and publishing
 
 ```bash
-python3 -m http.server 8000   # then visit http://localhost:8000
+python3 -m http.server 8000 --bind 127.0.0.1
 ```
 
-## Deploying
+Preview: http://127.0.0.1:8000. Hosting: GitHub Pages, root of `main`. Public URL: https://muneeb-rashid-cyan.github.io/.
 
-GitHub Pages auto-publishes on push to `main`:
-
-```bash
-git add -A
-git commit -m "Update portfolio content"
-git push origin main
-```
-
-Changes go live at https://muneeb-rashid-cyan.github.io/ within a minute or two.
-
-## Conventions
-
-- Match the existing indentation (2 spaces) and the sectioned comment banners in each file.
-- Prefer editing the existing classes/patterns over adding new ones.
-- No frameworks, no build tooling, no new runtime dependencies — keep it vanilla.
+Do not commit or push during the current review task. README.md has exact commands the user can execute after approval. Stage the CV explicitly so the deployed download exists. Do not stage unrelated `advancement/` content.
